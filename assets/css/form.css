@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form-style {
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100vw;
+}
+.form-style fieldset{
+    padding-left: 8px;
+}
+.form-style fieldset legend{
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.form-style fieldset h1{
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-style fieldset p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif
+}
+.form-style fieldset hr{
+    margin-top: 15px;
+}
+.form-style .form-campos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.form-style .form-campos label{
+    margin-bottom: 3px;
+}
+.form-style .form-campos input[name="foto"] {
+    font-size: 12px;
+}
+.form-style .form-campos input[name="nome"],
+.form-style .form-campos input[name="email"],
+.form-style .form-campos input[name="senha"],
+.form-style .form-campos input[name="date"],
+.form-style .form-campos input[name="nivel"],
+.form-style .form-campos select
+{
+    width: 150px;
+    font-size: 12px;
+}
+.form-style .form-campos input[name="idade"]{
+    width: 50px;
+    font-size: 12px;
+}
+.form-style .form-campos textarea{
+    width: 379px;
+}
+.form-style .form-campos button{
+    width: 65px;
+}
+
+.form-style .option-sexo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.form-style .option-sexo--item {
+    display: flex;
+    align-items: center;
+}
+
+.form-style textarea {
+    resize: none;
+}
+
+.aviso {
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.ok{
+    border: 1px solid rgb(20, 224, 88);
+    background-color: aquamarine;
+    color: rgb(39, 94, 7);
+}
+.alert{
+    border: 1px solid rgb(20, 224, 88);
+    background-color: rgb(233, 165, 165);
+    color: rgb(219, 69, 9);
+    font-weight: bold;
+}
